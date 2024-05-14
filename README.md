@@ -1,3 +1,13 @@
+# Machine Company
+
+## Objetivo del proyecto
+
+Desarrollar una página web con los lenguajes de programación HTML,CSS,JS en una duración estimada de 20 días, implementando una página web que cubra las necesidades en el área de maquinaria pesada para instruir, asesorar y prestar servicios a personas y/o empresas que desempeñen labores de infraestructura vial y/o construcción en el departamento del Chocó
+
+# Estructura del proyecto
+
+Este proyecto tiene un rama general main, la cual se deriva un rama develop. La rama develop tiene cuatro ramas features que se observan a continuación:
+
 ### 1) feature/valentina:
 
 Crear componentes y elementos para la vista e interacción dinámica del usuario en los cursos y certificaciones.

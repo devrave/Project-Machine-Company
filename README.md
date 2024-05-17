@@ -57,3 +57,4 @@ Javascript, HTML, CSS...
 - Líder de equipo de desarrollo: Supervisa el equipo de desarrollo, asigna tareas y garantiza que se cumplan los plazos.
 
 
+

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/main/main.css">
+    <title>Machine Company</title>
+</head>
+<body>
+    <!-- SECTION HEADER-->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">                        
+                        <h1>Machine company</h1>
+                    </div>
+                    <nav id="nav" class="">
+                            <a href="#inicio">Inicio</a>
+                            <a href="#servicios">Maquinaria</a>
+                            <a href="#cursos">Cursos</a>
+                            <a href="#alquiler">Alquiler</a>
+                            <a href="#trabajos">Compra y venta</a>
+                            <a href="#contacto">Contacto</a>                        
+                    </nav>
+    
+                    <!-- menu icon responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+    
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>Construimos un futuro mejor</h2>                        
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img class="imgelogo" src="/main/src/logoprueba1.png" alt="logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    <!-- SECTION SERVICES -->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card venta" >  
+                              
+                    <h3>Venta</h3>                  
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card mantenimiento" >  
+                              
+                    <h3>Mantenimiento</h3>                  
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card venta" >  
+                              
+                    <h3>Alquiler</h3>                  
+                </div>
+            </div>
+            <div class="col">
+                <div class="card formacion" >  
+                              
+                    <h3>Formación</h3>                  
+                </div>
+            </div>     
+        </div>        
+    </section>
+    
+
+    <!-- sección contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p>machinecompany@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3>Teléfono:</h3>
+                        <p>+57 3052340954</p>
+                    </div>
+                    <div class="info">
+                        <h3>Departamento</h3>
+                        <p>Chocó</p>
+                    </div>
+                    <div class="info">
+                        <h3>Ciudad:</h3>
+                        <p>Quibdó</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Nombre...">
+                    <input type="text" placeholder="Correo...">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="social-icon">
+            <li class="icon-elem">
+              <a href="#" class="icon">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-elem">
+              <a href="#" class="icon">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-elem">
+              <a href="#" class="icon">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-elem">
+              <a href="#" class="icon">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-elem">
+              <a href="#" class="icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <ul class="menu">
+            <li class="menu-elem">
+              <a href="" class="menu-icon"> Inicio </a>
+            </li>
+            <li class="menu-elem">
+              <a href="" class="menu-icon"> Equipo </a>
+            </li>
+            <li class="menu-elem">
+              <a href="" class="menu-icon"> Contacto </a>
+            </li>
+            <li class="menu-elem">
+              <a href="" class="menu-icon"> Video </a>
+            </li>
+            <li class="menu-elem">
+              <a href="" class="menu-icon"> Sobre Nosotros </a>
+            </li>
+          </ul>
+          <p class="text">@Año | Todos los derechos reservados</p>
+    </footer>
+    <script src="/main/main.js"></script>
+</body>
+</html>

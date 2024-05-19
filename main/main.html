@@ -15,20 +15,20 @@
 </head>
 <body>
     <!-- SECTION HEADER-->
-    <span class="sombra">
-        <section id="inicio" class="inicio">
-            <div class="contenido">
+    <span class="shadow">
+        <section id="initiation" class="initiation">
+            <div class="content">
                 <header>
                     <div class="logo">                        
                         <h1>Machine company</h1>
                     </div>
                     <nav id="nav" class="">
-                            <a href="#inicio">Inicio</a>
-                            <a href="#servicios">Maquinaria</a>
-                            <a href="#cursos">Cursos</a>
-                            <a href="#alquiler">Alquiler</a>
-                            <a href="#trabajos">Compra y venta</a>
-                            <a href="#contacto">Contacto</a>                        
+                            <a href="#initiation">Inicio</a>
+                            <a href="#services">Maquinaria</a>
+                            <a href="#services">Cursos</a>
+                            <a href="#services">Alquiler</a>
+                            <a href="#services">Compra y venta</a>
+                            <a  href="#contact">Contactanos</a>                        
                     </nav>
     
                     <!-- menu icon responsive -->
@@ -43,12 +43,12 @@
                     </div>
                 </header>
     
-                <div class="fila">
+                <div class="row">
                     <div class="col">
                         <h2>Construimos un futuro mejor</h2>                        
                     </div>
                     <div class="col">
-                        <div class="contenedor-img">
+                        <div class="container-img">
                             <img class="imgelogo" src="/main/src/logoprueba1.png" alt="logo">
                         </div>
                     </div>
@@ -58,8 +58,8 @@
     </span>
 
     <!-- SECTION SERVICES -->
-    <section id="servicios" class="servicios">
-        <div class="fila">
+    <section id="services" class="services">
+        <div class="row">
             <div class="col">
                 <div class="card venta" >  
                               
@@ -70,7 +70,7 @@
             <div class="col">
                 <div class="card mantenimiento" >  
                               
-                    <h3>Mantenimiento</h3>                  
+                    <a target="_blank" href="/maintenance/maintenance.html"><h3>Mantenimiento</h3></a>                  
                 </div>
             </div>
 
@@ -90,11 +90,11 @@
     </section>
     
 
-    <!-- sección contacto -->
-    <section class="contacto" id="contacto">
-        <div class="contenedor-contacto">
-            <h2>Contacto</h2>
-            <div class="fila">
+    <!-- sección contact -->
+    <section class="contact" id="contact">
+        <div class="container-contact">
+            <h2>contact</h2>
+            <div class="row">
                 <div class="col">
                     <div class="info">
                         <h3>Email:</h3>
@@ -114,10 +114,12 @@
                     </div>
                 </div>
                 <div class="col">
-                    <input type="text" placeholder="Nombre...">
-                    <input type="text" placeholder="Correo...">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <input type="submit" value="Enviar" class="btn">
+                    <form>
+                      <input required  type="text" placeholder="Nombre..." name="">
+                      <input required type="text" placeholder="Correo..." name="">
+                      <textarea required name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                      <button target="_blank" hre="mailto" class="btn">Enviar</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -159,7 +161,7 @@
               <a href="" class="menu-icon"> Equipo </a>
             </li>
             <li class="menu-elem">
-              <a href="" class="menu-icon"> Contacto </a>
+              <a href="" class="menu-icon"> contactanos </a>
             </li>
             <li class="menu-elem">
               <a href="" class="menu-icon"> Video </a>
@@ -168,7 +170,7 @@
               <a href="" class="menu-icon"> Sobre Nosotros </a>
             </li>
           </ul>
-          <p class="text">@Año | Todos los derechos reservados</p>
+          <p class="text">Año 2024 | Todos los derechos reservados</p>
     </footer>
     <script src="/main/main.js"></script>
 </body>

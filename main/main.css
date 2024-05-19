@@ -16,17 +16,12 @@
 --fondo-letras-titulo-amarillo: #E7A117;
 --letras-cartel-titulo-gris-azulado: #2F3847;
 --letra-card-negro: #000000;
+--gris-claro:#616366;
+--azul-oscuro: #181E4B;
 
 }
 
-:root{
-    /* paleta de colores valentina */
-  
-  --azul-oscuro: #181E4B;
-  --azul-claro: #6b5cff;
-  --blanco: #F9FAFC;
-  --gris-claro:#616366;
-}
+
 
 
 *{
@@ -43,35 +38,35 @@ body{
 }
 
 /* header section */
-.inicio{
+.initiation{
     background:linear-gradient(to right, var(--azul-oscuro), var(--gris-claro) );
     /* clip-path: polygon(0 0, 100% 0, 100% 46%, 47% 84%, 0 45%); */
     height: 70vh;
     padding:  0 20px;
 }
-.inicio .contenido{
+.initiation .content{
     max-width: 1200px;
     margin: auto;
     color: #fff;
 }
-.inicio header{
+.initiation header{
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
     align-items: center;
 }
-.inicio .logo{
+.initiation .logo{
     display: flex;
     align-items: center;
     color:#F07D05;
     font-size: 25px;
     margin-left: 10px;
 }
-.inicio .logo i{
+.initiation .logo i{
     display: inline-block;
     margin-right: 20px;
 }
-#inicio header nav a{
+#initiation header nav a{
     color: #fff;
     text-decoration: none;
     display: inline-block;
@@ -79,42 +74,42 @@ body{
     text-transform: uppercase;
     border: 2px solid transparent;
 }
-#inicio header nav a:hover{
+#initiation header nav a:hover{
     border-bottom: 2px solid var(--fondo-letras-titulo-amarillo);
 }
-.inicio .redes a{
+.initiation .redes a{
     text-decoration: none;
     color: var(--Blanco);
     display: inline-block;
     margin: 0 10px;
 }
-.inicio .redes a:hover{
+.initiation .redes a:hover{
     color: var(--fondo-letras-titulo-amarillo);
 }
-.inicio .fila{
+.initiation .row{
     display: flex;
     margin-top: 50px;
     padding-bottom: 100px;
 }
-.inicio .fila .col{
+.initiation .row .col{
     width: 50%;
     align-content: center;
 }
-.inicio .fila .col h2{
+.initiation .row .col h2{
     margin-bottom: 15px;
     font-size: 40px;
     align-content: center;
 }
-.inicio .fila .col p{
+.initiation .row .col p{
     margin-bottom: 20px;
 }
 
-.inicio .fila .col .contenedor-img{
+.initiation .row .col .container-img{
     max-width: 900px;
     margin: auto;
 }
-.inicio .fila .col .contenedor-img img{
-    width: 100%;
+.initiation .row .col .container-img img{
+    width: 80%;
 }
 
 #icono-nav{
@@ -130,13 +125,13 @@ body{
 #icono-nav:hover{
     background-color: #3e3e3e;
 }
-.sombra{
+.shadow{
     filter:drop-shadow(0em 30px 20px #F07D05);
 }
 /*  services section  */
 
 
-.servicios{
+.services{
     max-width: 1500px;
     margin: auto;
     padding: 0 20px;
@@ -146,19 +141,19 @@ body{
 
 
 
-.servicios .fila{
+.services .row{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
     gap: 50px;
     
 }
-.servicios .fila .col{
+.services .row .col{
     text-align: center;
     width: 30%;
     cursor: pointer;
 }
-.servicios .card{
+.services .card{
     border: 1px solid #8d8d8d;
     height:300px;    
     padding: 30px;
@@ -189,7 +184,7 @@ body{
 }
 
 
-.servicios h3{
+.services h3{
     margin-bottom: 20px;
     color: var(--Blanco);
     font-size: 2rem;
@@ -203,38 +198,38 @@ body{
     
     
     /* contact section */
-.contacto{
+.contact{
     background:
         linear-gradient(to right, var(--azul-oscuro), var(--gris-claro) ),
-        url(imto-contacto.png);
+        url(imto-contact.png);
         background-size: cover;
         color: #fff;
         margin-top: 100px;
         padding: 80px 20px;
 }
-.contacto .contenedor-contacto{
+.contact .container-contact{
     max-width: 1100px;
     margin: auto;
 }
-.contacto h2{
+.contact h2{
     text-align: center;
     padding-bottom: 30px;
 }
-.contacto .contenedor-contacto .fila{
+.contact .container-contact .row{
     display: flex;
 }
-.contacto .contenedor-contacto .fila .col{
+.contact .container-contact .row .col{
     width: 50%;
 }
-.contacto .contenedor-contacto .info{
+.contact .container-contact .info{
     margin-bottom: 30px;
     border-left: 3px solid #8d8d8d;
     padding-left: 8px;
 }
-.contacto .contenedor-contacto .info p{
+.contact .container-contact .info p{
     color: #8d8d8d;
 }
-.contacto input, .contacto textarea{
+.contact input, .contact textarea{
     width: 100%;
     border: none;
     background-color: transparent;
@@ -244,9 +239,10 @@ body{
     outline: none;
     color: #ff5b00;
 }
-.contacto .btn{
+.contact .btn{
     background-color: none;
     padding: 5px 40px;
+    width: 100%;
     border: 2px solid;
     color: #fff;
     cursor: pointer;
@@ -256,7 +252,7 @@ body{
 
 /* SECCION RESPONSIVE */
 @media screen and (max-width:1180px){
-    .inicio{
+    .initiation{
         clip-path: none;
     }
 }
@@ -288,37 +284,37 @@ body{
         display: block;
     }
 
-    .inicio{
+    .initiation{
         height: auto;
     }
-    .inicio .fila{
+    .initiation .row{
         display: block;
     }
-    .inicio .fila .col{
+    .initiation .row .col{
         width: 100%;
         text-align: center;
     }
-    .inicio .fila .col h2{
+    .initiation .row .col h2{
         margin-top: 20px;
     }
-    .inicio .fila .col .contenedor-img{
+    .initiation .row .col .container-img{
         width: 50%;
         margin-top: 30px;
     }
 
-    .servicios{
+    .services{
         position: static;
         padding: 20px;
     }
-    .servicios .fila{
+    .services .row{
         display: block;
         margin-bottom: 0;
     }
-    .servicios .fila .col{
+    .services .row .col{
         width: 70%;
         margin: auto;
     }
-    .servicios .fila .col .card{
+    .services .row .col .card{
         margin-bottom: 20px;
     }
     .habilidades{
@@ -329,17 +325,21 @@ body{
         margin: 0 5px;
     }
 
-    .contacto .fila{
+    .contact .row{
         display:  block !important;
     }
-    .contacto .fila .col{
+    .contact .row .col{
         text-align: center;
         width: 100% !important;
     }
-    .contacto .fila .col .info{
+    .contact .row .col .info{
         float: left;
         font-size: 12px;
         width: 25%;
+    }
+
+    .contact .info{
+       display: none;
     }
 }
 

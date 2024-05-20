@@ -1,12 +1,132 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/maintenance/maintenance.css">
+    <title>Maintenance</title>
 </head>
 <body>
-  <h1>soy pagina de mantenimiento</h1>
-  
-  
+    <!-- SECTION HEADER-->
+    
+  <section id="initiation" class="initiation">
+      <div class="content">
+          <header>
+              <div class="logo">                        
+                  <h1>Machine company</h1>
+              </div>
+              <nav id="nav" class="">
+                      <a href="/main/main.html">Inicio</a>
+                      <a href="#services">Maquinaria</a>
+                      <a href="#services">Cursos</a>
+                      <a href="#services">Alquiler</a>
+                      <a href="#services">Compra y venta</a>
+                      <a  href="#contact">Contactanos</a>                        
+              </nav>
+
+              <!-- menu icon responsive -->
+              <div id="icono-nav" onclick="responsiveMenu()">
+                  <i class="fa-solid fa-bars"></i>
+              </div>
+
+              <div class="redes">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </div>
+          </header>
+
+          <div class="row">
+              
+              <div class="col">
+                  
+              </div>
+          </div>
+      </div>
+  </section>
+    
+
+    <!-- kind of maintenance section -->
+    <section id="services" class="services">
+        <div class="row">
+            <div class="col">
+                <div class="card prevent" >  
+                              
+                    <h3>Mantenimiento Preventivo</h3>                  
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card corrective" >  
+                              
+                    <a target="_blank" href="#"><h3>Mantenimiento Correctivo</h3></a>                  
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card predictive" >                                
+                    <h3>Mantenimiento Predictivo</h3>                  
+                </div>
+            </div>              
+        </div>        
+    </section>
+    
+
+  <!-- footer section -->
+    <footer>
+        <ul class="social-icon">
+            <li class="icon-elem">
+              <a href="#" class="icon">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-elem">
+              <a href="#" class="icon">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-elem">
+              <a href="#" class="icon">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-elem">
+              <a href="#" class="icon">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li class="icon-elem">
+              <a href="#" class="icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <ul class="menu">
+            <li class="menu-elem">
+              <a href="" class="menu-icon"> Inicio </a>
+            </li>
+            <li class="menu-elem">
+              <a href="" class="menu-icon"> Equipo </a>
+            </li>
+            <li class="menu-elem">
+              <a href="" class="menu-icon"> contactanos </a>
+            </li>
+            <li class="menu-elem">
+              <a href="" class="menu-icon"> Video </a>
+            </li>
+            <li class="menu-elem">
+              <a href="" class="menu-icon"> Sobre Nosotros </a>
+            </li>
+          </ul>
+          <p class="text">Año 2024 | Todos los derechos reservados</p>
+    </footer>
+    <script src="/maintenance/maintenance.js"></script>
 </body>
 </html>

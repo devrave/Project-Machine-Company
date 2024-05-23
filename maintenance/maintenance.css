@@ -18,6 +18,7 @@
 --letra-card-negro: #000000;
 --gris-claro:#616366;
 --azul-oscuro: #181E4B;
+--blanco-formulario:#f2f2f2;
 
 }
 
@@ -60,6 +61,8 @@ body{
     color:#F07D05;
     font-size: 25px;
     margin-left: 10px;
+   
+    
 }
 .initiation .logo i{
     display: inline-block;
@@ -72,17 +75,20 @@ body{
     padding: 5px 10px;
     text-transform: uppercase;
     border: 2px solid transparent;
+    
+    
+    
 }
 #initiation header nav a:hover{
     border-bottom: 2px solid var(--fondo-letras-titulo-amarillo);
 }
-.initiation .redes a{
+.initiation .networks a{
     text-decoration: none;
     color: var(--Blanco);
     display: inline-block;
     margin: 0 10px;
 }
-.initiation .redes a:hover{
+.initiation .networks a:hover{
     color: var(--fondo-letras-titulo-amarillo);
 }
 .initiation .row{
@@ -133,10 +139,11 @@ body{
     margin: auto;
     padding: 0 20px;
     position: relative;
-    top: 20px;
-   
+    top: 20px; 
    
 }
+
+
 
 
 
@@ -162,7 +169,63 @@ body{
     background-size: cover;
     align-content: center;
     background-position: center;
+    background-color: var(--Gris-claro);
+    transition: 0.5s;
     
+    
+}
+
+.services .card p{
+    visibility: hidden;
+    
+}
+
+
+.services:hover{
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 20px;
+    position: relative;
+    top: 20px; 
+   
+}
+.services .row:hover{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    gap: 50px;
+    
+}
+
+.services .card:hover {   
+
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    transform: scale(1.1);
+    transition: 0.5s;
+  
+    
+}
+
+
+.services .card:hover p {
+    visibility: visible;
+    color: var(--letra-card-negro);
+    font-weight: bold;
+    font-size: 25px;
+    
+    
+
+
+}
+
+
+    
+
+.services .card:hover h3{
+    display: none;   
+   
     
 }
 
@@ -198,63 +261,6 @@ body{
     text-decoration: none;     
 }
 
-     
-
-    
-    
-    /* contact section */
-.contact{
-    background:
-        linear-gradient(to right, var(--azul-oscuro), var(--gris-claro) ),
-        url(imto-contact.png);
-        background-size: cover;
-        color: #fff;
-        margin-top: 100px;
-        padding: 80px 20px;
-}
-.contact .container-contact{
-    max-width: 1100px;
-    margin: auto;
-}
-.contact h2{
-    text-align: center;
-    padding-bottom: 30px;
-}
-.contact .container-contact .row{
-    display: flex;
-}
-.contact .container-contact .row .col{
-    width: 50%;
-}
-.contact .container-contact .info{
-    margin-bottom: 30px;
-    border-left: 3px solid #8d8d8d;
-    padding-left: 8px;
-}
-.contact .container-contact .info p{
-    color: #8d8d8d;
-}
-.contact input, .contact textarea{
-    width: 100%;
-    border: none;
-    background-color: transparent;
-    padding: 10px;
-    border: 1px solid #8d8d8d ;
-    margin-bottom: 20px;
-    outline: none;
-    color: #ff5b00;
-}
-.contact .btn{
-    background-color: none;
-    padding: 5px 40px;
-    width: 100%;
-    border: 2px solid;
-    color: #fff;
-    cursor: pointer;
-    background: linear-gradient(to right, #ff5b00, #ff9900);
-}
-
-
 /* SECCION RESPONSIVE */
 @media screen and (max-width:1180px){
     .initiation{
@@ -262,7 +268,7 @@ body{
     }
 }
 @media screen and (max-width:800px){
-    .redes{
+    .networks{
         display: none;
     }
     #nav{
@@ -348,14 +354,87 @@ body{
     }
 }
 
+/* form section */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    
+  }
+
+  textarea{
+    height:200px;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color:var(--Naranja);
+    color: var(--Blanco);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--fondo-letras-titulo-amarillo);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: var(--blanco-formulario);
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+
+
+
 /* footer */
 
 footer {
     border-top: 1px solid var(--Blanco);
     position: relative;
     width: 100%;
+    min-height: 408px;    
     background:linear-gradient(to right, var(--azul-oscuro), var(--gris-claro) );
-    min-height: 100px;
+
     padding: 20px 50px;
     display: flex;
     justify-content: center;

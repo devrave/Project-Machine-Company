@@ -78,13 +78,13 @@ body{
 #initiation header nav a:hover{
     border-bottom: 2px solid var(--fondo-letras-titulo-amarillo);
 }
-.initiation .redes a{
+.initiation .networks a{
     text-decoration: none;
     color: var(--Blanco);
     display: inline-block;
     margin: 0 10px;
 }
-.initiation .redes a:hover{
+.initiation .networks a:hover{
     color: var(--fondo-letras-titulo-amarillo);
 }
 .initiation .row{
@@ -162,6 +162,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     
+    
 }
 
 .venta{
@@ -189,11 +190,13 @@ body{
     color: var(--Blanco);
     font-size: 2rem;
     font-weight: bolder;
-    
+    text-decoration: none;    
 
 }
 
-     
+.services a{
+    text-decoration: none;
+}
 
     
     
@@ -257,7 +260,7 @@ body{
     }
 }
 @media screen and (max-width:800px){
-    .redes{
+    .networks{
         display: none;
     }
     #nav{
@@ -342,6 +345,8 @@ body{
        display: none;
     }
 }
+
+
 
 /* footer */
 

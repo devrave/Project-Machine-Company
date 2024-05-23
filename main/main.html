@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <meta name="keywords" content="mining industry, earthmoving activities, construction, machinery">
+    <meta name="author" content="team macchine company" />
+    <meta name="designer" content="team machine company" />  
+    <meta name="organization" content="“Riwi_bernerslee" />  
+    <!-- labels to have better performance of my page -->
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="revisit-after" content="15days" />    
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+     integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,32 +23,29 @@
     <title>Machine Company</title>
 </head>
 <body>
-    <!-- SECTION HEADER-->
-    
+    <!--Header section-->    
   <section id="initiation" class="initiation">
       <div class="content">
           <header>
-              <div class="logo">                        
+              <div class="logo" id="logo">                        
                   <h1>Machine company</h1>
               </div>
-              <nav id="nav" class="">
-                      <a href="#initiation">Inicio</a>
+              <nav id="nav" class="">                     
                       <a href="#services">Maquinaria</a>
                       <a href="#services">Cursos</a>
                       <a href="#services">Alquiler</a>
                       <a href="#services">Compra y venta</a>
-                      <a  href="#contact">Contactanos</a>                        
+                      <a  href="#contact">Contáctanos</a>                        
               </nav>
-
               <!-- menu icon responsive -->
               <div id="icono-nav" onclick="responsiveMenu()">
                   <i class="fa-solid fa-bars"></i>
               </div>
 
-              <div class="redes">
-                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <div class="networks">
+                <a target="_blank" href="https://twitter.com/gecolsacat?lang=es"><i class="fa-brands fa-twitter"></i></a>
+                <a target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
               </div>
           </header>
 
@@ -56,8 +62,7 @@
       </div>
   </section>
 
-
-    <!-- SECTION SERVICES -->
+    <!--services section -->
     <section id="services" class="services">
         <div class="row">
             <div class="col">
@@ -65,27 +70,23 @@
                     <h3>Venta</h3>                  
                 </div>
             </div>
-
             <div class="col">
                 <div class="card mantenimiento" >                                
                     <a target="_blank" href="/maintenance/maintenance.html"><h3>Mantenimiento</h3></a>                  
                 </div>
             </div>
-
             <div class="col">
                 <div class="card venta" >                                
                     <h3>Alquiler</h3>                  
                 </div>
             </div>
             <div class="col">
-                <div class="card formacion" >  
-                              
+                <div class="card formacion">                                
                     <h3>Formación</h3>                  
                 </div>
             </div>     
         </div>        
-    </section>
-    
+    </section>    
 
     <!-- contact section -->
     <section class="contact" id="contact">
@@ -115,37 +116,37 @@
                       <input required  type="text" placeholder="Nombre..." name="">
                       <input required type="text" placeholder="Correo..." name="">
                       <textarea required name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                      <button target="_blank" hre="mailto" class="btn">Enviar</button>
+                      <button target="_blank" hre="mailto" class="btn" id="btnForm">Enviar</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-
+<!-- footer section -->
     <footer>
         <ul class="social-icon">
             <li class="icon-elem">
-              <a href="#" class="icon">
+              <a target="_blank"  href="https://www.youtube.com/" class="icon">
                 <ion-icon name="logo-youtube"></ion-icon>
               </a>
             </li>
             <li class="icon-elem">
-              <a href="#" class="icon">
+              <a target="_blank" href="https://www.instagram.com/" class="icon">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </li>
             <li class="icon-elem">
-              <a href="#" class="icon">
+              <a target="_blank"  href="https://web.whatsapp.com/" class="icon">
                 <ion-icon name="logo-whatsapp"></ion-icon>
               </a>
             </li>
             <li class="icon-elem">
-              <a href="#" class="icon">
+              <a target="_blank"  href="https://www.facebook.com/" class="icon">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
             <li class="icon-elem">
-              <a href="#" class="icon">
+              <a href="mailto" class="icon">
                 <ion-icon name="mail-outline"></ion-icon>
               </a>
             </li>
@@ -158,13 +159,13 @@
               <a href="" class="menu-icon"> Equipo </a>
             </li>
             <li class="menu-elem">
-              <a href="" class="menu-icon"> contactanos </a>
+              <a href="" class="menu-icon"> contáctanos </a>
             </li>
             <li class="menu-elem">
               <a href="" class="menu-icon"> Video </a>
             </li>
             <li class="menu-elem">
-              <a href="" class="menu-icon"> Sobre Nosotros </a>
+              <a href="#logo" class="menu-icon"> Sobre Nosotros </a>
             </li>
           </ul>
           <p class="text">Año 2024 | Todos los derechos reservados</p>

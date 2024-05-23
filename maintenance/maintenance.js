@@ -32,3 +32,30 @@
             btnEliminar.remove();
         }
     }
+
+    // send form
+
+    const btn = document.getElementById('button');
+
+     let formulario = document.getElementById('form');
+     formulario.addEventListener('submit', function(event) {
+       event.preventDefault();
+       
+    //
+
+    
+       btn.value = 'Enviando mensaje...';
+    
+       const serviceID = 'default_service';
+       const templateID = 'template_kdxxbxr';
+    
+       emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+          btn.value = 'Enviar';
+          alert('Mensaje enviado');
+          formulario.reset()
+        }, (err) => {
+          btn.value = 'Enviar';
+          alert(JSON.stringify(err));
+        });
+    });

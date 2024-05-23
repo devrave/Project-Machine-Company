@@ -34,3 +34,31 @@ for(i=0; i < links.length;i++){
         btnEliminar.remove();
     }
 }
+
+
+//button function
+
+
+    let clickButton = document.getElementById("form");
+    let btn = documentElementById("btnForm")
+    clickButton.addEventListener("submit", (event)=>{   
+        event.preventDefault()
+        formulario.reset()
+    
+
+     alert("mensaje envaido")
+   }); 
+
+
+// // borrar
+
+// const btn = document.getElementById('button');
+
+// let formulario = document.getElementById('form');
+// formulario.addEventListener('submit', function(event) {
+//   event.preventDefault();
+  
+// //
+
+
+//   btn.value = 'Enviando mensaje...';

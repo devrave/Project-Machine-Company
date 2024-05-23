@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7), #222832), url(/Rent/images/img-maquinaria.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+}
+
+form {
+    padding: 50px 55px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+    color: #fff;
+    /* background-color: #737FB2; */
+}
+
+form h2 {
+    font-weight: 900;
+    color: #F07D05;
+    font-size: 25px;
+}
+
+.form-txt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-txt a {
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.form-txt a:hover {
+    color: #14EA9B;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    /* background: rgba(0, 0, 0, 0.2); */
+    padding: 20px 14px;
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #000;
+}
+
+::placeholder {
+    color: #000;
+    font-size: 15px;
+}
+
+:focus {
+    outline: 1px solid #000;
+}
+
+.btn {
+    background-color: #14F9A6;
+    color: #146D31;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #14EA9B;
+}
+
+
+/* Responsive */
+
+@media(max-width:991px) {
+    
+    body {
+        padding: 30px;
+    }
+
+    form {
+        width: 100%;
+    }
+}

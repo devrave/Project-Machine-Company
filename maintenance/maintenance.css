@@ -39,6 +39,10 @@ body{
 }
 
 /* header section */
+
+.shadow{
+    filter:drop-shadow(0em 20px 10px #F07D05);
+}
 .initiation{
     background:linear-gradient(to right, var(--azul-oscuro), var(--gris-claro) );
     height: 20vh;
@@ -144,14 +148,12 @@ body{
 }
 
 
-
-
-
 .services .row{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
     gap: 50px;
+    margin-top: 15px;
     
 }
 .services .row .col{

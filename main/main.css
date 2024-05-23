@@ -39,6 +39,10 @@ body{
 }
 
 /* header section */
+
+.shadow{
+    filter:drop-shadow(0em 20px 10px #F07D05);
+}
 .initiation{
     background:linear-gradient(to right, var(--azul-oscuro), var(--gris-claro) );
     /* clip-path: polygon(0 0, 100% 0, 100% 46%, 47% 84%, 0 45%); */

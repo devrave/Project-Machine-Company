@@ -170,21 +170,21 @@ body{
 }
 
 .venta{
-    background-image: url(/main/src/venta.jpeg); 
+    background-image: url(/homepage/src/venta.jpeg); 
 
 }
 .mantenimiento{
-    background-image: url(/main/src/mantenimiento.jpeg); 
+    background-image: url(/homepage/src/mantenimiento.jpeg); 
 
 }
 
 .alquiler{
-    background-image: url(/main/src/alquiler.jpeg); 
+    background-image: url(/homepage/src/alquiler.jpeg); 
 
 }
 
 .formacion{
-    background-image: url(/main/src/formacion.jpeg); 
+    background-image: url(/homepage/src/formacion.jpeg); 
 
 }
 

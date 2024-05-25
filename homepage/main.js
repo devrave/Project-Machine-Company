@@ -42,6 +42,6 @@ for(i=0; i < links.length;i++){
         event.preventDefault()
         formulario.reset()    
 
-     alert("mensaje envaido")
+     alert("mensaje enviado")
    }); 
 

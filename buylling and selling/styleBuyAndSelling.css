@@ -35,6 +35,8 @@ html{
 body{
     background-color: #f6fafc;
 }
+
+/* header section */
 header {
     background:linear-gradient(to right, var(--azul-oscuro), var(--gris-claro) );    color: #fff;
     text-align: center;
@@ -53,7 +55,7 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin-right: 30px;
 }
 
 nav ul {
@@ -137,6 +139,18 @@ h2 {
     color: (--Blanco);
 }
 
+.homepage{
+    display: none;
+}
+
+.webs{
+    margin-left: 40px ;
+}
+
+
+
+/* gallery section */
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -185,6 +199,10 @@ h2 {
 }
 
 
+
+
+
+/* footer section */
 footer {
     border-top: 1px solid var(--Blanco);
     position: relative;
@@ -273,19 +291,32 @@ footer {
     .item {
         width: calc(100% - 20px); 
         gap:20px;
-    }
+    } 
+    
+    
 }
 
 
 @media screen and (max-width:1180px){
     .initiation{
-        clip-path: none;
+        clip-path: none;   
     }
+
+    .homepage{
+        visibility: visible;
+    }
+
 }
 @media screen and (max-width:800px){
     #nav{
         display: none;
     }
+
+    .homepage{
+        display: contents;
+      
+    }
+
     #nav.responsive{
         background-color: rgba(0,0,0,.9);
         top: 0;
@@ -310,6 +341,12 @@ footer {
     .initiation{
         height: auto;
     }
+
+    .webs{
+        display: none;
+    }
+
+    
+    }
+
 }
-
-

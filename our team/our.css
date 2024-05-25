@@ -230,7 +230,11 @@ body{
 }
 .infoTeam p{
     color: var(--gris-claro);
-    font-size: 14px;
+    font-size: 18px;
+}
+
+.infoTeam h2{
+    font-size: 25px;
 }
 @media screen and (max-width:800px){
     .main .main2{

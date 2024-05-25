@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
       integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ=="
@@ -15,13 +15,14 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="stylesheet" href="/Rent/css/style2.css">
+   <link rel="stylesheet" href="/Rent/css/style.css">
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="/Rent/css/style.css">
+   <link rel="stylesheet" href="/Rent/css/style2.css">
+   <link rel="shortcut icon" href="/course/src/logo.jpeg" type="image/x-icon">
 
    <title>Alquiler</title>
 </head>
@@ -35,32 +36,29 @@
                <div class="logo">
                   <h1>Machine company</h1>
                </div>
-               <nav id="nav" class="">
-                  <a href="/main/main.html">Inicio</a>
-                  <a href="#services">Maquinaria</a>
-                  <a href="#services">Cursos</a>
-                  <a href="#services">Alquiler</a>
-                  <a href="#services">Compra y venta</a>
-                  <a href="#contact">Contactanos</a>
+               <nav id="nav" class="">                      
+                  <a href="/homepage/main.html">Inicio</a>
+                  <a href="/maintenance/maintenance.html">Maquinaria</a>
+                  <a href="/course/courses.html">Cursos</a>
+                  <a href="/Rent/html/index.html">Alquiler</a>
+                  <a href="/buylling and selling/indexBuyAndSelling.html">Compra y venta</a>
+                  <a  href="#contact">Contáctanos</a> 
                </nav>
 
                <!-- menu icon responsive -->
+               
                <div id="icono-nav" onclick="responsiveMenu()">
                   <i class="fa-solid fa-bars"></i>
-               </div>
+              </div>
 
                <div class="networks">
                   <a target="_blank" href="https://twitter.com/gecolsacat?lang=es"><i class="fa-brands fa-twitter"></i></a>
                   <a target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
                   <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
                </div>
-
             </header>
-
             <div class="row">
-
                <div class="col">
-
                </div>
             </div>
          </div>
@@ -69,53 +67,43 @@
 
    <!-- Catalog of cards part 1-->
    <div class="container">
-
       <h3 class="title"> Alquiler </h3>
-
       <div class="products-container">
-
          <div class="product" data-name="p-1">
             <img src="/Rent/images/Motoniveladora CAT 16-15.jpg" alt="">
             <h3>Motoniveladora CAT 16-15</h3>
             <div class="price">código de alquiler:<strong> 264</strong></div>
          </div>
-
          <div class="product" data-name="p-2">
             <img src="/Rent/images/Motoniveladora CAT 150-15.jpg" alt="">
             <h3>Motoniveladora CAT 150-15</h3>
             <div class="price">código de alquiler:<strong> 265</strong></div>
          </div>
-
          <div class="product" data-name="p-3">
             <img src="/Rent/images/Motoniveladora CAT 140K.jpg" alt="">
             <h3>Motoniveladora CAT 140K</h3>
             <div class="price">código de alquiler:<strong> 266</strong></div>
          </div>
-
          <div class="product" data-name="p-4">
             <img src="/Rent/images/CARGADOR FL936.png" alt="">
             <h3>Cargador FL936</h3>
             <div class="price">código de alquiler:<strong> 255</strong></div>
          </div>
-
          <div class="product" data-name="p-5">
             <img src="/Rent/images/Cargador JCB 4CX.jpg" alt="">
             <h3>Cargador JCB 4CX</h3>
             <div class="price">código de alquiler:<strong> 256</strong></div>
          </div>
-
          <div class="product" data-name="p-6">
             <img src="/Rent/images/Cargador CAT 966M.jpg" alt="">
             <h3>Cargador CAT 966M</h3>
             <div class="price">código de alquiler:<strong> 257</strong></div>
          </div>
-
          <div class="product" data-name="p-7">
             <img src="/Rent/images/Retrocargador CAT 432F2LRC.jpg" alt="">
             <h3>Retrocargador CAT 432F2LRC</h3>
             <div class="price">código de alquiler:<strong> 150</strong></div>
          </div>
-
          <div class="product" data-name="p-8">
             <img src="/Rent/images/Retrocargador JCB 3CX14.jpg" alt="">
             <h3>Retrocargador JCB 3CX14</h3>
@@ -209,9 +197,6 @@
                <li>largo cuchilla 3,65 pulgadas</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">agregar a lista de cotización</a>
-         </div> -->
          <button onclick="mostrarCotizacion()"><b>cotizar</b></button>
       </div>
 
@@ -235,9 +220,6 @@
                <li>largo cuchilla 3,80 pulgadas</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">agregar a lista de cotización</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -261,9 +243,6 @@
                <li>largo cuchilla 3,95 pulgadas</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">agregar a lista de cotización</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -287,9 +266,6 @@
                <li>potencia 209 hp</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">agregar a lista de cotización</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -313,10 +289,6 @@
                <li>potencia 210 hp</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -340,10 +312,6 @@
                <li>potencia 211 hp</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -367,10 +335,6 @@
                <li>potencia 92 hp</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -394,10 +358,6 @@
                <li>potencia 95 hp</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -421,10 +381,6 @@
                <li>potencia 98 hp</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -448,10 +404,6 @@
                <li>potencia 95 hp</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -475,10 +427,6 @@
                <li>potencia 155 hp</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -502,10 +450,6 @@
                <li>potencia 27,2 hp</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -529,10 +473,6 @@
                <li>potencia 69 hp</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -556,10 +496,6 @@
                <li>potencia 65 hp</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -583,10 +519,6 @@
                <li>potencia 61 hp</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -610,10 +542,6 @@
                <li>control remoto no</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -637,10 +565,6 @@
                <li>control remoto no</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
 
@@ -664,10 +588,6 @@
                <li>control remoto no</li>
             </ul>
          </div>
-         <!-- <div class="buttons">
-            <a href="#" class="buy">buy now</a>
-            <a href="#" class="cart">add to cart</a>
-         </div> -->
          <button><b>cotizar</b></button>
       </div>
    </div>

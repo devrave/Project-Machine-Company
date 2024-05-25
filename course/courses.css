@@ -191,12 +191,19 @@ body{
 }
 .contact .btn{
     background-color: none;
-    padding: 5px 40px;
+    padding: 5px 30px;
     width: 100%;
-    border: 2px solid;
-    color: #fff;
+    border: 2px solid;    
     cursor: pointer;
     background: linear-gradient(to right, #ff5b00, #ff9900);
+}
+
+
+.btn h3{
+    color: var(--Blanco);
+    font-size: 15px;
+    margin: auto;
+
 }
 
 /* Cards section */

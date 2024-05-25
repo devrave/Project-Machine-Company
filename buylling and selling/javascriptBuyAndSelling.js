@@ -40,13 +40,13 @@ $('.button').click(function(){
     $('body').removeClass('modal-active');
   });
 
-//función que muestra el menu responsive{
+//responsive function
     function responsiveMenu(){
         let x = document.getElementById("nav");
         if(x.className===""){
             x.className = "responsive";
     
-            //creamos el elemento que cierra el menu
+            // we create the element that closes the menu
             let span = document.createElement("span");
             span.innerHTML = "X";
             document.getElementById("nav").appendChild(span);
@@ -60,6 +60,8 @@ $('.button').click(function(){
         }
     }
 
+    // This code is to add a function to each responsive
+    //  menu links when you press any of the menu links should the menu disappear
     const links = document.querySelectorAll("#nav a");
     for(i=0; i < links.length;i++){
         links[i].onclick = function(){

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="keywords" content="mining industry, earthmoving activities, construction, machinery">
+  <meta name="author" content="team macchine company" />
+  <meta name="designer" content="team machine company" />  
+  <meta name="organization" content="“Riwi_bernerslee" />  
+  <!-- labels to have better performance of my page -->
+  <meta name="robots" content="index,follow" />
+  <meta name="googlebot" content="index,follow" />
+  <meta name="revisit-after" content="15days" />    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+    integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==">
+    <link rel="shortcut icon" href="/public/img/course/logo.jpeg" type="image/x-icon">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/src/css/maintenance.css">
+  <title>Maintenance</title>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">emailjs.init('InE3jxzTuK9LtoccF')</script>
+</head>
+<body>
+   <!--Header section-->    
+   <span class="shadow">
+    <section id="initiation" class="initiation">
+        <div class="content">
+            <header>
+                <div class="logo" id="logo">                        
+                    <h1>Machine company</h1>
+                </div>
+                <nav id="nav" class="">                     
+                  <a href="/index.html">Inicio</a>                  
+                  <a href="/src/pages/courses.html">Cursos</a>
+                  <a href="/src/pages/alquiler.html">Alquiler</a>
+                  <a href="/src/pages/indexBuyAndSelling.html">Compra y venta</a>
+                  <a  href="#container">Contáctanos</a>                       
+                </nav>
+                <!-- menu icon responsive -->
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="networks">
+                  <a target="_blank" href="https://twitter.com/gecolsacat?lang=es"><i class="fa-brands fa-twitter"></i></a>
+                  <a target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                  <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </header>
+            <div class="row">
+                <div class="col">
+                    <h2>Construimos un futuro mejor</h2>                        
+                </div>
+                <div class="col">
+                    <div class="container-img">
+                        <img class="imgelogo" src="/public/img/home/logo.png" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  </span>
+    <!-- kind of maintenance section -->
+  <section id="services" class="services">
+    <div class="row">
+      <div class="col">
+        <div class="card prevent">
+          <h3>Mantenimiento Preventivo</h3>
+          <p class="definition">conservación de los equipos en condiciones óptimas mediante revisiones
+            regulares de la maquinaria.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card corrective">
+          <h3>Mantenimiento Correctivo</h3>
+          <p class="definition">Conjunto de funciones técnicas que se aplican por incidencias o averías, con el fin de
+            restaurar el equipo.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card predictive">
+          <h3>Mantenimiento Predictivo</h3>
+          <p class="definition">Es una técnica que utiliza herramientas y técnicas de análisis de datos para detectar
+            anomalías</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- form section -->
+  <div class="container" id="container">
+    <h3>Formulario requerimiento mantenimiento</h3>
+    <form id="form">
+      <div class="row">
+        <div class="col-25">
+          <label for="from_name">Nombre completo</label>
+        </div>
+        <div class="col-75">
+          <input required autocomplete="off" type="text" id="from_name" name="from_name" placeholder="Escriba su nombre completo...">
+        </div>
+      </div>    
+      <div class="row">
+        <div class="col-25">
+          <label for="email_id">Email</label>
+        </div>
+        <div class="col-75">
+          <input required autocomplete="off" type="text" id="email_id" name="email_id" placeholder="Escriba su email...">
+        </div>
+      </div>      
+      <div class="row">
+        <div class="col-25">
+          <label for="maintenance">Tipo de mantenimiento</label>
+        </div>
+        <div class="col-75">
+          <select required id="maintenance" name="maintenance">
+            <option value="Mantenimiento preventivo">Mantenimiento preventivo</option>
+            <option value="Mantenimiento correctivo">Mantenimiento correctivo</option>
+            <option value="Mantenimiento predictivo">Mantenimiento predictivo</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="message">Comentarios</label>
+        </div>
+        <div class="col-75">
+          <textarea required id="message" name="message" placeholder="Comentarios"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <input  type="submit" value="Enviar" id="button">
+      </div>
+    </form>
+  </div>
+  <!-- footer section -->
+  <footer>
+    <ul class="social-icon">
+      <li class="icon-elem">
+        <a target="_blank"  href="https://www.youtube.com/" class="icon">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+      </li>
+      <li class="icon-elem">
+        <a  target="_blank" href="https://www.instagram.com/" class="icon">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </li>
+      <li class="icon-elem">
+        <a target="_blank"  href="https://web.whatsapp.com/" class="icon">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+      </li>
+      <li class="icon-elem">
+        <a target="_blank"  href="https://www.facebook.com/" class="icon">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+      </li>
+      <li class="icon-elem">
+        <a  href="mailto:" class="icon">
+          <ion-icon name="mail-outline"></ion-icon>
+        </a>
+      </li>
+    </ul>
+    <ul class="menu">
+      <li class="menu-elem">
+        <a href="/index.html" class="menu-icon"> Inicio </a>
+      </li>
+      <li class="menu-elem">
+        <a href="/src/pages/our.html" class="menu-icon"> Equipo </a>
+      </li>
+      <li class="menu-elem">
+        <a href="#contact" class="menu-icon"> contáctanos </a>
+      </li>
+      <li class="menu-elem">
+        <a href="/src/pages/video.html" class="menu-icon"> Video </a>
+      </li>
+      <li class="menu-elem">
+        <a href="/src/pages/about.html" class="menu-icon"> Sobre Nosotros </a>
+      </li>
+    </ul>
+    <p class="text">Año 2024 | Todos los derechos reservados</p>
+  </footer>
+<script src="/src/js/maintenance.js"></script>
+</body>
+</html>

@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="mining industry, earthmoving activities, construction, machinery">
+    <meta name="author" content="team macchine company" />
+    <meta name="designer" content="team machine company" />  
+    <meta name="organization" content="“Riwi_bernerslee" />  
+    <!-- labels to have better performance of my page -->
+    <meta name="robots" content="index,follow" />
+    <meta name="googlebot" content="index,follow" />
+    <meta name="revisit-after" content="15days" />   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+      integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="/src/css/alquiler.css">
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="/src/css/alquiler2.css">
+   <link rel="shortcut icon" href="/public/img/course/logo.jpeg" type="image/x-icon">
+   <title>Alquiler</title>
+</head>
+<body>
+   <!-- SECTION HEADER-->
+   <span class="shadow">
+      <section id="initiation" class="initiation">
+         <div class="content">
+            <header>
+               <div class="logo">
+                  <h1>Machine company</h1>
+               </div>
+               <nav id="nav" class="">                      
+                  <a href="/index.html">Inicio</a>
+                  <a href="/src/pages/maintenance.html">Maquinaria</a>
+                  <a href="/src/pages/courses.html">Cursos</a>
+                  <a href="/src/pages/alquiler.html">Alquiler</a>
+                  <a href="/src/pages/indexBuyAndSelling.html">Compra y venta</a>
+                  <a  href="#contact">Contáctanos</a> 
+               </nav>
+               <!-- menu icon responsive -->               
+               <div id="icono-nav" onclick="responsiveMenu()">
+                  <i class="fa-solid fa-bars"></i>
+              </div>
+               <div class="networks">
+                  <a target="_blank" href="https://twitter.com/gecolsacat?lang=es"><i class="fa-brands fa-twitter"></i></a>
+                  <a target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                  <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+               </div>
+            </header>
+            <div class="row">
+               <div class="col">
+               </div>
+            </div>
+         </div>
+      </section>
+   </span>
+   <!-- Catalog of cards part 1-->
+   <div class="container">
+      <h3 class="title"> Alquiler </h3>
+      <div class="products-container">
+         <div class="product" data-name="p-1">
+            <img src="/public/img/alquiler/Motoniveladora CAT 16-15.jpg" alt="">
+            <h3>Motoniveladora CAT 16-15</h3>
+            <div class="price">código de alquiler:<strong> 264</strong></div>
+         </div>
+         <div class="product" data-name="p-2">
+            <img src="/public/img/alquiler/Motoniveladora CAT 150-15.jpg" alt="">
+            <h3>Motoniveladora CAT 150-15</h3>
+            <div class="price">código de alquiler:<strong> 265</strong></div>
+         </div>
+         <div class="product" data-name="p-3">
+            <img src="/public/img/alquiler/Motoniveladora CAT 140K.jpg" alt="">
+            <h3>Motoniveladora CAT 140K</h3>
+            <div class="price">código de alquiler:<strong> 266</strong></div>
+         </div>
+         <div class="product" data-name="p-4">
+            <img src="/public/img/alquiler/CARGADOR FL936.png" alt="">
+            <h3>Cargador FL936</h3>
+            <div class="price">código de alquiler:<strong> 255</strong></div>
+         </div>
+         <div class="product" data-name="p-5">
+            <img src="/public/img/alquiler/Cargador JCB 4CX.jpg" alt="">
+            <h3>Cargador JCB 4CX</h3>
+            <div class="price">código de alquiler:<strong> 256</strong></div>
+         </div>
+         <div class="product" data-name="p-6">
+            <img src="/public/img/alquiler/Cargador CAT 966M.jpg" alt="">
+            <h3>Cargador CAT 966M</h3>
+            <div class="price">código de alquiler:<strong> 257</strong></div>
+         </div>
+         <div class="product" data-name="p-7">
+            <img src="/public/img/alquiler/Retrocargador CAT 432F2LRC.jpg" alt="">
+            <h3>Retrocargador CAT 432F2LRC</h3>
+            <div class="price">código de alquiler:<strong> 150</strong></div>
+         </div>
+         <div class="product" data-name="p-8">
+            <img src="/public/img/alquiler/Retrocargador JCB 3CX14.jpg" alt="">
+            <h3>Retrocargador JCB 3CX14</h3>
+            <div class="price">código de alquiler:<strong> 152</strong></div>
+         </div>
+         <div class="product" data-name="p-9">
+            <img src="/public/img/alquiler/Retrocargador JCB 3CX15 SUPER.jpg" alt="">
+            <h3>Retrocargador JCB 3CX15 SUPER</h3>
+            <div class="price">código de alquiler:<strong> 154</strong></div>
+         </div>
+         <div class="product" data-name="p-10">
+            <img src="/public/img/alquiler/Excavadora CAT 336-07GC.jpg" alt="">
+            <h3>Excavadora CAT 336-07GC</h3>
+            <div class="price">código de alquiler:<strong> 60</strong></div>
+         </div>
+         <div class="product" data-name="p-11">
+            <img src="/public/img/alquiler/EXCAVADORA FR150.webp" alt="">
+            <h3>Excavadora FR150</h3>
+            <div class="price">código de alquiler:<strong> 62</strong></div>
+         </div>
+         <div class="product" data-name="p-12">
+            <img src="/public/img/alquiler/Excavadora FR80E2.webp" alt="">
+            <h3>Excavadora FR80E2</h3>
+            <div class="price">código de alquiler:<strong> 260</strong></div>
+         </div>
+         <div class="product" data-name="p-13">
+            <img src="/public/img/alquiler/Minicargador CAT 259D3 C3H2.jpg" alt="">
+            <h3>Minicargador CAT 259D3 C3H2</h3>
+            <div class="price">código de alquiler:<strong> 262</strong></div>
+         </div>
+         <div class="product" data-name="p-14">
+            <img src="/public/img/alquiler/Minicargador SK820-5E0.jpg" alt="">
+            <h3>Minicargador SK820-5E0</h3>
+            <div class="price">código de alquiler:<strong> 259</strong></div>
+         </div>
+         <div class="product" data-name="p-15">
+            <img src="/public/img/alquiler/Minicargador S570.jpg" alt="">
+            <h3>Minicargador S570</h3>
+            <div class="price">código de alquiler:<strong> 261</strong></div>
+         </div>
+         <div class="product" data-name="p-16">
+            <img src="/public/img/alquiler/Dúmper CAT 740 GC.webp" alt="">
+            <h3>Dúmper CAT 740 GC</h3>
+            <div class="price">código de alquiler:<strong> 270</strong></div>
+         </div>
+         <div class="product" data-name="p-17">
+            <img src="/public/img/alquiler/Dúmper Volvo A25c 6x6.jpg" alt="">
+            <h3>Dúmper Volvo A25c 6x6</h3>
+            <div class="price">código de alquiler:<strong> 271</strong></div>
+         </div>
+         <div class="product" data-name="p-18">
+            <img src="/public/img/alquiler/Dúmper Komatsu HM 300-5EO.jpg" alt="">
+            <h3>Dúmper Komatsu HM 300-5EO</h3>
+            <div class="price">código de alquiler:<strong> 272</strong></div>
+         </div>
+      </div>
+   </div>
+   <!-- Catalog of cards part 2-->
+   <div class="products-preview">
+      <div class="preview" data-target="p-1">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Motoniveladora CAT 16-15.jpg" alt="">
+         <h3>Motoniveladora CAT 16-15</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>peso operacional 16395 kg</li>
+               <li>neumáticos 14,00 X 24 G2 12 l</li>
+               <li>potencia 140 hp</li>
+               <li>largo cuchilla 3,65 pulgadas</li>
+            </ul>
+         </div>
+         <button onclick="mostrarCotizacion()"><b>cotizar</b></button>
+      </div>
+      <div class="preview" data-target="p-2">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Motoniveladora CAT 150-15.jpg" alt="">
+         <h3>Motoniveladora CAT 150-15</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>peso operacional 17395 kg</li>
+               <li>neumáticos 16,00 X 24 G2 12 l</li>
+               <li>potencia 142 hp</li>
+               <li>largo cuchilla 3,80 pulgadas</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+
+      <div class="preview" data-target="p-3">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Motoniveladora CAT 140K.jpg" alt="">
+         <h3>Motoniveladora CAT 140K</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>peso operacional 18395 kg</li>
+               <li>neumáticos 18,00 X 24 G2 12 l</li>
+               <li>potencia 144 hp</li>
+               <li>largo cuchilla 3,95 pulgadas</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+      <div class="preview" data-target="p-4">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/CARGADOR FL936.png" alt="">
+         <h3>Cargador FL936</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>capacidad de balde 3 m3</li>
+               <li>peso operacional 17640 kg</li>
+               <li>neumáticos l3</li>
+               <li>potencia 209 hp</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+      <div class="preview" data-target="p-5">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Cargador JCB 4CX.jpg" alt="">
+         <h3>Cargador JCB 4CX</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>capacidad de balde 4 m4</li>
+               <li>peso operacional 18640 kg</li>
+               <li>neumáticos l4</li>
+               <li>potencia 210 hp</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+
+      <div class="preview" data-target="p-6">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Cargador CAT 966M.jpg" alt="">
+         <h3>Cargador CAT 966M</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>capacidad de balde 5 m5</li>
+               <li>peso operacional 19640 kg</li>
+               <li>neumáticos l5</li>
+               <li>potencia 211 hp</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+      <div class="preview" data-target="p-7">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Retrocargador CAT 432F2LRC.jpg" alt="">
+         <h3>Retrocargador CAT 432F2LRC</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>capacidad de balde 1 m3</li>
+               <li>profundidad de excavación 4,72 m</li>
+               <li>peso operacional 7751 kg</li>
+               <li>potencia 92 hp</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+      <div class="preview" data-target="p-8">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Retrocargador JCB 3CX14.jpg" alt="">
+         <h3>Retrocargador JCB 3CX14</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>capacidad de balde 1 m3</li>
+               <li>profundidad de excavación 4,43 m</li>
+               <li>peso operacional 7200 kg</li>
+               <li>potencia 95 hp</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+
+      <div class="preview" data-target="p-9">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Retrocargador JCB 3CX15 SUPER.jpg" alt="">
+         <h3>Retrocargador JCB 3CX15 SUPER</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>capacidad de balde 1 m3</li>
+               <li>profundidad de excavación 4,62 m</li>
+               <li>peso operacional 7500 kg</li>
+               <li>potencia 98 hp</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+      <div class="preview" data-target="p-10">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Excavadora CAT 336-07GC.jpg" alt="">
+         <h3>Excavadora CAT 336-07GC</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>capacidad de balde 0,51 m3</li>
+               <li>profundidad de excavación 5,64 m</li>
+               <li>peso operacional 14000 kg</li>
+               <li>potencia 95 hp</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+      <div class="preview" data-target="p-11">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/EXCAVADORA FR150.webp" alt="">
+         <h3>Excavadora FR150</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>capacidad de balde 0,92 m3</li>
+               <li>profundidad de excavación 6,62 m</li>
+               <li>peso operacional 21500 kg</li>
+               <li>potencia 155 hp</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+
+      <div class="preview" data-target="p-12">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Excavadora FR80E2.webp" alt="">
+         <h3>Excavadora FR80E2</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>capacidad de balde 0,11 m3</li>
+               <li>profundidad de excavación 3,02 m</li>
+               <li>peso operacional 3660 kg</li>
+               <li>potencia 27,2 hp</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+      <div class="preview" data-target="p-13">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Minicargador CAT 259D3 C3H2.jpg" alt="">
+         <h3>Minicargador CAT 259D3 C3H2</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>capacidad de carga 895 kg</li>
+               <li>capacidad de balde 0,6 m3</li>
+               <li>peso operacional 2842 kg</li>
+               <li>potencia 69 hp</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+
+      <div class="preview" data-target="p-14">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Minicargador SK820-5E0.jpg" alt="">
+         <h3>Minicargador SK820-5E0</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>capacidad de carga 890 kg</li>
+               <li>capacidad de balde 0,6 m3</li>
+               <li>peso operacional 2842 kg</li>
+               <li>potencia 65 hp</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+      <div class="preview" data-target="p-15">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Minicargador S570.jpg" alt="">
+         <h3>Minicargador S570</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>capacidad de carga 885 kg</li>
+               <li>capacidad de balde 0,6 m3</li>
+               <li>peso operacional 2842 kg</li>
+               <li>potencia 61 hp</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+      <div class="preview" data-target="p-16">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Dúmper CAT 740 GC.webp" alt="">
+         <h3>Dúmper CAT 740 GC</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>tracción 6X6</li>
+               <li>potencia 247 hp</li>
+               <li>capacidad A 4m. 5 ton kg</li>
+               <li>control remoto no</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+
+      <div class="preview" data-target="p-17">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Dúmper Volvo A25c 6x6.jpg" alt="">
+         <h3>Dúmper Volvo A25c 6x6</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>tracción 6X6</li>
+               <li>potencia 250 hp</li>
+               <li>capacidad A 4m. 5 ton kg</li>
+               <li>control remoto no</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+      <div class="preview" data-target="p-18">
+         <i class="fas fa-times"></i>
+         <img src="/public/img/alquiler/Dúmper Komatsu HM 300-5EO.jpg" alt="">
+         <h3>Dúmper Komatsu HM 300-5EO</h3>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="list-li">
+            <ul>
+               <li>tracción 6X6</li>
+               <li>potencia 253 hp</li>
+               <li>capacidad A 4m. 5 ton kg</li>
+               <li>control remoto no</li>
+            </ul>
+         </div>
+         <button><b>cotizar</b></button>
+      </div>
+   </div>
+   <!-- Button form -->
+   <div class="inform">
+      <p>Para realizar su solicitud de alquiler de maquinaria, favor ingresar los datos en el formulario y uno de
+         nuestros asesores se comunicara con usted</p>
+   </div>
+   <div class="button_btn">
+      <a href="/src/pages/formularioalquiler.html" class="button_formulario" target="_blank">Formulario</a>
+   </div>
+   <!-- sección contact -->
+   <section class="contact" id="contact">
+      <div class="container-contact">
+         <h2>contact</h2>
+         <div class="row">
+            <div class="col">
+               <div class="info">
+                  <h3>Email:</h3>
+                  <p>machinecompany@gmail.com</p>
+               </div>
+               <div class="info">
+                  <h3>Teléfono:</h3>
+                  <p>+57 3052340954</p>
+               </div>
+               <div class="info">
+                  <h3>Departamento</h3>
+                  <p>Chocó</p>
+               </div>
+               <div class="info">
+                  <h3>Ciudad:</h3>
+                  <p>Quibdó</p>
+               </div>
+            </div>
+            <div class="col">
+               <form>
+                  <input required type="text" placeholder="Nombre..." name="">
+                  <input required type="text" placeholder="Correo..." name="">
+                  <textarea required name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                  <button target="_blank" hre="mailto" class="btn">Enviar</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer>
+      <ul class="social-icon">
+         <li class="icon-elem">
+            <a target="_blank" href="https://www.youtube.com/" class="icon">
+               <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+         </li>
+         <li class="icon-elem">
+            <a target="_blank" href="https://www.instagram.com/" class="icon">
+               <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+         </li>
+         <li class="icon-elem">
+            <a target="_blank" href="https://web.whatsapp.com/" class="icon">
+               <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+         </li>
+         <li class="icon-elem">
+            <a target="_blank" href="https://www.facebook.com/" class="icon">
+               <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+         </li>
+         <li class="icon-elem">
+            <a href="mailto:" class="icon">
+               <ion-icon name="mail-outline"></ion-icon>
+            </a>
+         </li>
+      </ul>
+      <ul class="menu">
+         <li class="menu-elem">
+           <a href="/index.html" class="menu-icon"> Inicio </a>
+         </li>
+         <li class="menu-elem">
+           <a href="/src/pages/our.html" class="menu-icon"> Equipo </a>
+         </li>
+         <li class="menu-elem">
+           <a href="#contact" class="menu-icon"> contáctanos </a>
+         </li>
+         <li class="menu-elem">
+           <a href="/src/pages/video.html" class="menu-icon"> Video </a>
+         </li>
+         <li class="menu-elem">
+           <a href="/src/pages/about.html" class="menu-icon"> Sobre Nosotros </a>
+         </li>
+       </ul>
+      <p class="text">Año 2024 | Todos los derechos reservados</p>
+   </footer>
+   <script src="/src/js/app2.js"></script>
+   <!-- custom js file link  -->
+   <script src="/src/js/app.js" defer></script>
+</body>
+</html>

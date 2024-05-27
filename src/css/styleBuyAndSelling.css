@@ -1,55 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;800&display=swap');
 
-:root{
+:root {
 
-    /* Paleta de color Máquina */
-        --Gris-oscuro: #3D3C3B;
-        --Gris-claro: #C6C6C6;
-        --Naranja: #F07D05;
-        --Blanco: #FFFFFF;
-    
-    
-    /*Paleta de color fondo */
-    
+    /* Colors Palette */
+    --Gris-oscuro: #3D3C3B;
+    --Gris-claro: #C6C6C6;
+    --Naranja: #F07D05;
+    --Blanco: #FFFFFF;
     --fondo-general-azul-oscuro: #222832;
     --fondo-letras-titulo-amarillo: #E7A117;
     --letras-cartel-titulo-gris-azulado: #2F3847;
     --letra-card-negro: #000000;
-    --gris-claro:#616366;
+    --gris-claro: #616366;
     --azul-oscuro: #181E4B;
-    
-    }
 
+}
 
-    
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'M PLUS Rounded 1c';
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: #f6fafc;
 }
 
 /* header section */
 header {
-    background:linear-gradient(to right, var(--azul-oscuro), var(--gris-claro) );    color: #fff;
+    background: linear-gradient(to right, var(--azul-oscuro), var(--gris-claro));
+    color: #fff;
     text-align: center;
     margin: auto;
     display: flex;
     flex-direction: column;
 }
 
-.headerpart1{
+.headerpart1 {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     padding-bottom: 5px;
 }
+
 .headerpart2 {
     padding-top: 15px;
 }
@@ -74,27 +71,31 @@ nav ul li a {
     text-decoration: none;
 }
 
-.initiation .content{
+.initiation .content {
     color: #fff;
 }
-.initiation header{
+
+.initiation header {
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
     align-items: center;
 }
-.initiation .logo{
+
+.initiation .logo {
     display: flex;
     align-items: center;
-    color:#F07D05;
+    color: #F07D05;
     font-size: 25px;
     margin-left: 10px;
 }
-.initiation .logo i{
+
+.initiation .logo i {
     display: inline-block;
     margin-right: 20px;
 }
-#initiation header nav a{
+
+#initiation header nav a {
     color: #fff;
     text-decoration: none;
     display: inline-block;
@@ -102,20 +103,23 @@ nav ul li a {
     text-transform: uppercase;
     border: 2px solid transparent;
 }
-.initiation header nav a:hover{
+
+.initiation header nav a:hover {
     border-bottom: 2px solid var(--fondo-letras-titulo-amarillo);
 }
-.initiation .webs a{
+
+.initiation .webs a {
     text-decoration: none;
     color: var(--Blanco);
     display: inline-block;
     margin: 0 10px;
 }
-.initiation .webs a:hover{
+
+.initiation .webs a:hover {
     color: var(--fondo-letras-titulo-amarillo);
 }
 
-#icon-nav{
+#icon-nav {
     height: 30px;
     width: 30px;
     text-align: center;
@@ -125,12 +129,15 @@ nav ul li a {
     cursor: pointer;
     display: none;
 }
-#icon-nav:hover{
+
+#icon-nav:hover {
     background-color: #3e3e3e;
 }
-.shadow{
-    filter:drop-shadow(0em 10px 5px #F07D05);
+
+.shadow {
+    filter: drop-shadow(0em 10px 5px #F07D05);
 }
+
 main {
     padding: 20px;
 }
@@ -139,15 +146,13 @@ h2 {
     color: (--Blanco);
 }
 
-.homepage{
+.homepage {
     display: none;
 }
 
-.webs{
-    margin-left: 40px ;
+.webs {
+    margin-left: 40px;
 }
-
-
 
 /* gallery section */
 
@@ -194,66 +199,64 @@ h2 {
     border-radius: 3px;
     margin-top: 10px;
 }
-.forms{
+
+.forms {
     border-radius: 50px;
 }
-
-
-
-
 
 /* footer section */
 footer {
     border-top: 1px solid var(--Blanco);
     position: relative;
     width: 100%;
-    background:linear-gradient(to right, var(--azul-oscuro), var(--gris-claro) );
+    background: linear-gradient(to right, var(--azul-oscuro), var(--gris-claro));
     min-height: 100px;
     padding: 20px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
-  
-  .social-icon {
+}
+
+.social-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     margin: 10px 5px;
     flex-wrap: wrap;
-  }
-  
-  .icon-elem {
+}
+
+.icon-elem {
     list-style: none;
-  }
-  
-  .icon {
+}
+
+.icon {
     color: white;
     font-size: 32px;
     display: inline-block;
     margin: 0 10px;
     transition: 0.5s;
-  }
-  
-  .icon:hover {
+}
+
+.icon:hover {
     transform: translateY(-10px);
-  }
-  
-  .menu {
+}
+
+.menu {
     display: flex;
     justify-content: center;
     position: relative;
     align-items: center;
     margin: 10px 0;
     flex-wrap: wrap;
-  }
-  
-  .menu-elem {
+}
+
+.menu-elem {
     list-style: none;
-  }
-  .menu-icon {
+}
+
+.menu-icon {
     color: white;
     font-size: 20px;
     display: inline-block;
@@ -261,64 +264,63 @@ footer {
     margin: 5px 10px;
     opacity: 0.5;
     transition: 0.1s;
-  }
-  
-  .menu-icon:hover {
+}
+
+.menu-icon:hover {
     opacity: 1;
-  }
-  
-  .text {
+}
+
+.text {
     color: white;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
     font-size: 20px;
-  }
+}
 
 /* SECCION RESPONSIVE */
 @media (max-width: 768px) {
     .item {
         width: calc(50% - 20px);
-        gap:20px;
-        
+        gap: 20px;
+
     }
-    section h2{
+
+    section h2 {
         padding: 40px;
     }
 }
 
 @media (max-width: 480px) {
     .item {
-        width: calc(100% - 20px); 
-        gap:20px;
-    } 
-    
-    
+        width: calc(100% - 20px);
+        gap: 20px;
+    }
 }
 
-
-@media screen and (max-width:1180px){
-    .initiation{
-        clip-path: none;   
+@media screen and (max-width:1180px) {
+    .initiation {
+        clip-path: none;
     }
 
-    .homepage{
+    .homepage {
         visibility: visible;
     }
 
 }
-@media screen and (max-width:800px){
-    #nav{
+
+@media screen and (max-width:800px) {
+    #nav {
         display: none;
     }
 
-    .homepage{
+    .homepage {
         display: contents;
-      
+
     }
 
-    #nav.responsive{
-        background-color: rgba(0,0,0,.9);
+    #nav.responsive {
+        background-color: rgba(0, 0, 0, .9);
         top: 0;
         left: 0;
         height: 100vh;
@@ -331,22 +333,24 @@ footer {
         justify-content: center;
         z-index: 99;
     }
-    #nav.responsive a{
+
+    #nav.responsive a {
         font-size: 30px;
     }
-    #icono-nav{
+
+    #icono-nav {
         display: block;
     }
 
-    .initiation{
+    .initiation {
         height: auto;
     }
 
-    .webs{
+    .webs {
         display: none;
     }
 
-    
-    }
+
+}
 
 }

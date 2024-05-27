@@ -145,12 +145,12 @@
                     </div>
                 </div>
                 <div class="col">
-                    <form>
-                        <input required type="text" placeholder="Nombre..." name="">
-                        <input required type="text" placeholder="Correo..." name="">
-                        <textarea required name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                        <button target="_blank" hre="mailto" class="btn">Enviar</button>
-                    </form>
+                    <form id="registrationForm">
+                        <input type="text" id="name" name="name" placeholder="Nombre..." required>
+                        <input type="email" id="email" name="email" placeholder="Correo..." required>
+                        <textarea type="text" id="message" name="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        <button  type="submit" class="btn" id="btnForm">Enviar</button>
+                      </form>
                 </div>
             </div>
         </div>
@@ -203,6 +203,6 @@
           </ul>
         <p class="text">Año 2024 | Todos los derechos reservados</p>
     </footer>
-    <script src="/course/courses.js"></script>
+    <script src="/src/js/courses.js"></script>
 </body>
 </html>

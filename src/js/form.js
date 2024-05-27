@@ -34,19 +34,5 @@ for(i=0; i < links.length;i++){
 }
 
 
-function guardarFormulario() {
-  var form = document.getElementById("form");
-  var formData = new FormData(form);
-  
-  // Convertir los datos del formulario a un objeto JSON
-  var formObject = {};
-  formData.forEach(function(value, key){
-      formObject[key] = value;
-  });
-  
-  // Guardar el objeto JSON en localStorage
-  localStorage.setItem('formularioData', JSON.stringify(formObject));
-  
-  console.log("Formulario guardado localmente.");  
-}
+
 

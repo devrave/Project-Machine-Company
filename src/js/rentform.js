@@ -1,4 +1,4 @@
-
+//code showing data in the email
 const btn = document.getElementById('button');
 
 let formulario = document.getElementById('form')

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
 
+/* universal style */
 *{
    font-family: 'Nunito', sans-serif;
    margin:0; padding:0;
@@ -7,7 +8,7 @@
    outline: none; border:none;
    text-decoration: none;
    transition: all .2s linear;
-   text-transform: capitalize;
+   /* text-transform: capitalize; */
 }
 
 html{
@@ -16,12 +17,11 @@ html{
 }
 
 body{
-   background-image: linear-gradient(rgba(0,0,0,0.7), #2F3847), url(/Rent/images/Maquinaria\ Pesada.jpg);
+   background-image: linear-gradient(rgba(0,0,0,0.7), #2F3847), url(/public/img/alquiler/Maquinaria\ Pesada.jpg);
    background-position: center center;
    background-repeat: no-repeat;
    background-size: cover;
-   background-attachment: fixed;
- 
+   background-attachment: fixed; 
 }
 
 .container{
@@ -39,6 +39,7 @@ body{
    margin-top: 40px;
 }
 
+/* style firts card */
 .container .products-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -89,6 +90,7 @@ strong {
    color: black; 
 }
 
+/* style second card */
 .products-preview{
    position: fixed;
    top:0; left:0;
@@ -149,6 +151,7 @@ strong {
    color:#999;
 }
 
+/* style for the letter */
 .list-li {
   display: flex;
   justify-content: center;
@@ -168,9 +171,9 @@ strong {
    display: -webkit-box;
    font-weight: bolder;
    color: #C57F1E;
-
 }
 
+/*Animated button*/
 button {
    position: relative;
    font-size: 16px;
@@ -224,11 +227,11 @@ button {
  }
 
 
-/* Botón para ir al formulario */
+/* Button to go to the form */
 .button_btn {
    display: flex;
-   justify-content: center; /* Centra horizontalmente */
-   align-items: center; /* Centra verticalmente, si es necesario */
+   justify-content: center; 
+   align-items: center; 
   margin-top: 15px;
 }
 
@@ -254,9 +257,6 @@ button {
    box-shadow: 0 5px #666;
    transform: translateY(4px);
 } 
-
-
-
 
 /* Responsive */
 
@@ -284,5 +284,4 @@ button {
    .container{
       margin-top: 100px;
    } 
-
 }

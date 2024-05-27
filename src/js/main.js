@@ -35,13 +35,40 @@ for(i=0; i < links.length;i++){
 }
 
 //button function
+// we use json server as a localhost
 
-    let clickButton = document.getElementById("form");
-    let btn = documentElementById("btnForm")
-    clickButton.addEventListener("submit", (event)=>{   
-        event.preventDefault()
-        formulario.reset()    
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('registrationForm').addEventListener('submit', function(event) {
+        event.preventDefault();
 
-     alert("mensaje enviado")
-   }); 
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+       
 
+        const user = {
+            name: name,
+            email: email,
+            message: message
+           
+        };
+
+        fetch('http://localhost:3000/users', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(user)
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('Success:', data);
+            document.getElementById('registrationForm').reset();   
+            alert('Usuario registrado con éxito')            
+        })        
+        .catch((error) => {
+            console.error('Error:', error);
+            alert('Error al registrar el usuario');
+        });
+    });
+});

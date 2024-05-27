@@ -4,7 +4,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(0,0,0,0.7), #222832), url(/Rent/images/img-maquinaria.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), #222832), url(/public/img/alquiler/img-maquinaria.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,6 +70,7 @@ input, textarea {
     outline: 1px solid #000;
 }
 
+/* style button */
 .btn {
     background-color: #14F9A6;
     color: #146D31;

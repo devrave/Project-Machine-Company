@@ -1,5 +1,5 @@
 
-// Este código muestra el efecto de las cards cuando se da click
+// This code shows the effect of cards when give click
 let preveiwContainer = document.querySelector('.products-preview');
 let previewBox = preveiwContainer.querySelectorAll('.preview');
 

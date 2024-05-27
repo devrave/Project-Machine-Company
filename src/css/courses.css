@@ -3,15 +3,11 @@
 
 :root{
 
-/* Paleta de color Máquina */
+/* Colors Palette */
     --Gris-oscuro: #3D3C3B;
     --Gris-claro: #C6C6C6;
     --Naranja: #F07D05;
     --Blanco: #FFFFFF;
-
-
-/*Paleta de color fondo */
-
 --fondo-general-azul-oscuro: #222832;
 --fondo-letras-titulo-amarillo: #E7A117;
 --letras-cartel-titulo-gris-azulado: #2F3847;
@@ -20,9 +16,6 @@
 --azul-oscuro: #181E4B;
 
 }
-
-
-
 
 *{
     margin: 0;
@@ -130,7 +123,6 @@ body{
 }
 /*  services section  */
 
-
 .services{
     display: flex;
     margin: 0;
@@ -205,9 +197,7 @@ body{
     margin: auto;
 
 }
-
 /* Cards section */
-
 
 .cards {
     max-width: 1100px;
@@ -302,16 +292,16 @@ body{
     background: linear-gradient(to right, #ff5b00, #ff9900);
 }
 
-/* Consultas de medios para hacer responsive el diseño */
+/* responsive design */
 @media (max-width: 768px) {
     .cards .fila .col {
-        width: 48%; /* Cambiar el ancho de las columnas en pantallas más pequeñas */
+        width: 48%; 
     }
 }
 
 @media (max-width: 480px) {
     .cards .fila .col {
-        width: 100%; /* Para dispositivos más pequeños, las columnas ocupan todo el ancho */
+        width: 100%; 
     }
 }
 

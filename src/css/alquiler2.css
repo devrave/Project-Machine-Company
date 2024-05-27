@@ -3,24 +3,18 @@
 
 :root{
 
-/* Paleta de color Máquina */
+/* Colors Palette */
     --Gris-oscuro: #3D3C3B;
     --Gris-claro: #C6C6C6;
     --Naranja: #F07D05;
     --Blanco: #FFFFFF;
-
-
-/*Paleta de color fondo */
-
 --fondo-general-azul-oscuro: #222832;
 --fondo-letras-titulo-amarillo: #E7A117;
 --letras-cartel-titulo-gris-azulado: #2F3847;
 --letra-card-negro: #000000;
 --gris-claro:#616366;
 --azul-oscuro: #181E4B;
-
 }
-
 
 *{
     margin: 0;
@@ -138,7 +132,6 @@ body{
 }
 
 
-
 .services .row{
     display: flex;
     justify-content: space-between;
@@ -158,8 +151,7 @@ body{
     border-radius: 20px;
     position: relative;   
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover;    
 }
 
 .venta{
@@ -180,20 +172,12 @@ body{
     background-image: url(/main/src/formacion.jpeg); 
 
 }
-
-
 .services h3{
     margin-bottom: 20px;
     color: var(--Blanco);
     font-size: 2rem;
-    font-weight: bolder;
-    
-
-}
-
-     
-
-    
+    font-weight: bolder;    
+}     
     
     /* contact section */
 .contact{

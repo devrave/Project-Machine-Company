@@ -2,27 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500;800&display=swap');
 
 :root{
-
-/* Paleta de color Máquina */
+/* Colors Palette */
     --Gris-oscuro: #3D3C3B;
     --Gris-claro: #C6C6C6;
     --Naranja: #F07D05;
     --Blanco: #FFFFFF;
-
-
-/*Paleta de color fondo */
-
 --fondo-general-azul-oscuro: #222832;
 --fondo-letras-titulo-amarillo: #E7A117;
 --letras-cartel-titulo-gris-azulado: #2F3847;
 --letra-card-negro: #000000;
 --gris-claro:#616366;
 --azul-oscuro: #181E4B;
-
 }
-
-
-
 
 *{
     margin: 0;
@@ -130,7 +121,6 @@ body{
 }
 /*  services section  */
 
-
 .services{
     display: flex;
     margin: 0;
@@ -143,8 +133,7 @@ body{
     
 }
 .card2{
-    width: 40%;
-   
+    width: 40%;   
 }
     
 .btn{
@@ -231,10 +220,8 @@ main{
 .mainImg img{
     border-radius: 20px ;
     box-shadow: 2px 2px 6px rgba(228, 118, 8, 0.5);
-
-
 }
-/*  */
+/* SECCION RESPONSIVE */
 
 @media (max-width: 768px) {
   
@@ -244,8 +231,6 @@ main{
     }
 }
 
-
-/* SECCION RESPONSIVE */
 @media screen and (max-width:1180px){
     .initiation{
         clip-path: none;
